@@ -206,10 +206,10 @@
 
         layer_1 {
             bindings = <
-&kp JP_HANZEN  &trans        &trans        &trans        &trans                          &trans        &trans             &moA          &moB          &moC
-&kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans    &trans  &kp NUMBER_6  &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans         &trans        &trans        &trans        &trans        &trans    &trans  &trans        &trans             &trans        &trans        &trans
-&trans         &trans        &trans        &trans        &trans        &trans            &trans        &kp RIGHT_COMMAND                                            &kp RCTRL
+&kp CARET     &kp EXCLAMATION       &kp AMPERSAND  &kp PIPE          &kp DOLLAR                              &kp AT                &kp EQUAL          &kp PLUS      &kp ASTERISK  &kp PERCENT
+&kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3   &kp NUMBER_4      &kp NUMBER_5       &trans       &trans  &kp NUMBER_6          &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans        &mt LEFT_SHIFT MINUS  &kp GRAVE      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE    &trans  &kp NON_US_BACKSLASH  &kp GRAVE          &trans        &trans        &trans
+&trans        &trans                &trans         &trans            &trans             &trans               &trans                &kp RIGHT_COMMAND                                            &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -217,10 +217,10 @@
 
         layer_2 {
             bindings = <
-&kp N1  &mo2    &kp N3  &kp N4            &kp N5                                     &mo6    &mo7    &mo8             &mo9             &mo0
-&trans  &trans  &trans  &trans            &trans       &trans                &trans  &trans  &trans  &trans           &kp C_MENU_UP    &trans
-&trans  &trans  &trans  &trans            &trans       &trans                &trans  &trans  &trans  &kp C_MENU_LEFT  &kp C_MENU_DOWN  &kp C_MENU_RIGHT
-&trans  &trans  &trans  &lt 0 INT_HENKAN  &lt 2 SPACE  &lt 4 INT_MUHENKAN            &trans  &trans                                                      &trans
+&kp CARET        &kp EXCLAMATION       &kp AMPERSAND      &kp PIPE              &kp DOLLAR                                           &kp AT          &kp EQUAL       &kp PLUS         &kp ASTERISK     &kp PERCENT
+&mt LCTRL MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &kp SINGLE_QUOTE
+&trans           &mt LEFT_SHIFT MINUS  &kp HASH           &kp BACKSLASH         &kp LEFT_BRACE         &kp RIGHT_BRACE       &trans  &trans          &trans          &kp C_MENU_LEFT  &kp C_MENU_DOWN  &kp C_MENU_RIGHT
+&kp LEFT_ALT     &trans                &trans             &lt 0 INT_HENKAN      &lt 2 SPACE            &lt 4 INT_MUHENKAN            &trans          &trans                                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -228,10 +228,10 @@
 
         layer_3 {
             bindings = <
-&kp F1   &kp F2                  &kp F3          &kp F4                   &kp F5                                     &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp F11  &kp F12                 &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END      &trans                &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans       &trans                &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans                  &trans          &lt 3 INT_HENKAN         &lt 0 SPACE  &lt 5 INT_MUHENKAN            &trans  &trans                           &trans
+&kp LS(S)  &kp LS(D)  &kp LS(F15)  &kp LG(KP_MINUS)      &kp LG(KP_PLUS)                                  &trans  &trans  &trans  &trans  &kp F10
+&trans     &trans     &kp LS(F16)  &kp LS(F17)           &kp LS(F18)      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &trans       &kp LG(LS(NUMBER_5))  &kp LC(LG(C))    &kp LS(LG(NUMBER_4))    &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &trans       &trans                &trans           &trans                          &trans  &trans                           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
