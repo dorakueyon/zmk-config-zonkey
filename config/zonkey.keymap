@@ -228,10 +228,10 @@
 
         layer_3 {
             bindings = <
-&kp LS(S)  &kp LS(D)  &kp LS(F15)           &kp LG(KP_MINUS)  &kp LG(KP_PLUS)                         &trans  &trans  &trans  &trans  &trans
-&trans     &trans     &kp LS(F16)           &kp LS(F17)       &kp LS(F18)           &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans     &kp LS(LG(NUMBER_5))  &kp LG(LC(C))     &kp LG(LS(NUMBER_4))  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans     &trans                &trans            &trans                &trans            &trans  &trans                          &trans
+&kp LS(S)  &kp LS(D)  &kp LS(F15)           &kp LG(KP_MINUS)  &kp LG(KP_PLUS)                         &trans  &trans  &trans        &trans        &trans
+&trans     &trans     &kp LS(F16)           &kp LS(F17)       &kp LS(F18)           &trans    &trans  &trans  &trans  &trans        &trans        &trans
+&trans     &trans     &kp LS(LG(NUMBER_5))  &kp LG(LC(C))     &kp LG(LS(NUMBER_4))  &trans    &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+&trans     &trans     &trans                &trans            &trans                &trans            &trans  &trans                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
